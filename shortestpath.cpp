@@ -31,7 +31,7 @@ vector<int> shortestpath(int V,vector<vector<int>>adj[],int S){
     return dist;
 }
 //DIJKSTRA USING SET
-vector<int> dijkstra(int V,vector<vector<int>>adj[],int S){
+/*vector<int> dijkstra(int V,vector<vector<int>>adj[],int S){
     set<pair<int,int>>st;
     vector<int>dist(V,INT_MAX);
     dist[S]=0;
@@ -53,7 +53,7 @@ vector<int> dijkstra(int V,vector<vector<int>>adj[],int S){
         }
         return dist;
     }
-}
+}*/
 int main(){
     int V, E, S;
     cout << "Enter the number of vertices (V) and edges (E): ";
